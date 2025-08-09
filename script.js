@@ -21,6 +21,15 @@ if ("serviceWorker" in navigator) {
   });
 }
 
+// 身分證字號遮罩效果
+document.getElementById("presonalId").addEventListener("input", function () {
+  let displayValue = "";
+  for (let i = 0; i < this.value.length; i++) {
+    displayValue += i < 6 ? this.value[i] : "•";
+  }
+  this.value = displayValue;
+});
+
 function navigate(url) {
   console.log(url);
 }
