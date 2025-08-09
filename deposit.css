@@ -1,6 +1,8 @@
 .deposit-container {
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  background: #f5f5f5;
 }
 
 .deposit-container .header-image {
@@ -33,11 +35,10 @@
 /* section: balance */
 .deposit-container .balance {
   position: relative;
-  height: fit-content;
 }
 .deposit-container .balance .colorful {
   display: block;
-  position: absolute;
+  position: relative;
   top: -40px;
   width: 100%;
 }
@@ -73,3 +74,64 @@
 }
 
 /* section: demand-deposit */
+.deposit-container .demand-deposit {
+  margin-top: -48px;
+  padding: 0 36px;
+}
+.deposit-container .demand-deposit .section-title {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.deposit-container .demand-deposit .section-title span {
+  font-size: 22px;
+  font-weight: 600;
+  color: #474747;
+}
+.deposit-container .demand-deposit .section-title img {
+  display: inline-block;
+  width: 20px;
+}
+.deposit-container .info-card {
+  position: relative;
+  background: #fff;
+  border-radius: 16px;
+  padding: 16px;
+}
+.deposit-container .info-card .upper {
+  width: 100%;
+  display: flex;
+  gap: 12px;
+}
+.deposit-container .info-card .upper img {
+  display: inline-block;
+  height: 16px;
+  margin-top: 8px;
+}
+.deposit-container .info-card .upper .more {
+  margin-right: 8px;
+  margin-left: auto;
+}
+.deposit-container .info-card .upper .text {
+  display: flex;
+  flex-direction: column;
+}
+.deposit-container .info-card .upper .text .card-title {
+  font-size: 16px;
+  color: #474747;
+}
+.deposit-container .info-card .upper .text .card-sub {
+  font-size: 14px;
+  color: #878787;
+}
+.deposit-container .info-card .lower {
+  width: 100%;
+  margin-top: 24px;
+  display: flex;
+}
+.deposit-container .info-card .lower .amount {
+  font-size: 20px;
+  font-weight: 600;
+  color: #474747;
+  margin-left: auto;
+}

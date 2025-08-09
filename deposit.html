@@ -24,7 +24,7 @@
 
 <body>
   <div class="deposit-container">
-    <img src="./assets/images/deposit_header.png" alt="deposit_header" class="header-image">
+    <img src="./assets/images/deposit_header.png" alt="deposit_header" class="header-image" onclick="navigate('login.html')">
 
     <div class="header-nav">
       <div class="activate-tag">臺幣</div>
@@ -46,6 +46,19 @@
         <span>活期存款</span>
         <img src="./assets/icons/info.png" alt="info_icon">
       </div>
+      <div class="info-card">
+        <div class="upper">
+          <img src="./assets/icons/deco.png" alt="green_deco">
+          <div class="text">
+            <span class="card-title">活期儲蓄存款</span>
+            <span class="card-sub">017507086524</span>
+          </div>
+          <img src="./assets/icons/more.png" alt="more_icon" class="more">
+        </div>
+        <div class="lower">
+          <span class="amount">$21,600,000</span>
+        </div>
+      </div>
     </section>
 
     <section class="time-deposit"></section>
@@ -54,4 +67,6 @@
 
     <div class="footer-nav"></div>
   </div>
+
+  <script src="script.js"></script>
 </body>
