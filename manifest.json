@@ -1,15 +1,15 @@
 {
   "name": "詐欺者劇組專用",
   "short_name": "玉豐銀行",
-  "start_url": "https://yu-feng.fyqstudio.com/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
   "orientation": "portrait",
-  "scope": "https://yu-feng.fyqstudio.com/",
+  "scope": "./",
   "icons": [
     {
-      "src": "https://yu-feng.fyqstudio.com/assets/icons/app-icon.png",
+      "src": "assets/icons/dollar.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"

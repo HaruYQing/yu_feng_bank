@@ -31,5 +31,5 @@ document.getElementById("presonalId").addEventListener("input", function () {
 });
 
 function navigate(url) {
-  console.log(url);
+  window.location.assign(url);
 }

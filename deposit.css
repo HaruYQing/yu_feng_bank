@@ -1,0 +1,75 @@
+.deposit-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.deposit-container .header-image {
+  display: block;
+  width: 100%;
+}
+
+.deposit-container .header-nav {
+  z-index: 15;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  gap: 60px;
+  padding-top: 20px;
+  box-shadow: 0 1px 6px 0 #41414178;
+  background: #fff;
+}
+.deposit-container .header-nav .activate-tag {
+  border-bottom: 2px solid #d87645;
+  padding: 0 10px 4px 10px;
+  color: #d87645;
+  font-weight: 600;
+}
+.deposit-container .header-nav .deactivate-tag {
+  padding: 0 10px 4px 10px;
+  color: #878787;
+  font-weight: 600;
+}
+
+/* section: balance */
+.deposit-container .balance {
+  position: relative;
+  height: fit-content;
+}
+.deposit-container .balance .colorful {
+  display: block;
+  position: absolute;
+  top: -40px;
+  width: 100%;
+}
+.deposit-container .balance .panel {
+  z-index: 10;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  box-shadow: 0 1px 4px 0 #86868678;
+}
+.deposit-container .balance .panel .panel-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #555656;
+}
+.deposit-container .balance .panel .panel-title img {
+  width: 16px;
+}
+.deposit-container .balance .panel .amount {
+  font-size: 28px;
+  font-weight: 600;
+  color: #474747;
+}
+
+/* section: demand-deposit */

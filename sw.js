@@ -1,15 +1,15 @@
 const CACHE_NAME = "scammer-app-v1";
-const DOMAIN = "https://yu-feng.fyqstudio.com";
 const urlsToCache = [
-  `${DOMAIN}/`,
-  `${DOMAIN}/index.html`,
-  `${DOMAIN}/login.html`,
-  `${DOMAIN}/deposit.html`,
-  `${DOMAIN}/styles.css`,
-  `${DOMAIN}/login.css`,
-  `${DOMAIN}/script.js`,
-  `${DOMAIN}/manifest.json`,
-  `${DOMAIN}/assets/icons/app-icon.png`,
+  "./",
+  "./index.html",
+  "./login.html",
+  "./deposit.html",
+  "./styles.css",
+  "./login.css",
+  "./deposit.css",
+  "./script.js",
+  "./manifest.json",
+  "./assets/icons/app-icon.png",
 ];
 
 self.addEventListener("install", (event) => {
