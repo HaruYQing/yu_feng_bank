@@ -1,0 +1,99 @@
+.login-container {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container .bank-logo {
+  display: block;
+  width: 100vw;
+}
+
+form {
+  margin-top: 48px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+form input {
+  border: 1px solid #939393;
+  border-radius: 4px;
+  width: 100%;
+  padding: 8px;
+  transition: all 0.1s linear;
+}
+form input:focus {
+  outline: 2px solid #afafaf;
+  outline-offset: 2px;
+}
+
+.login-container form .form-field .label-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 0;
+}
+.login-container form .form-field .label-area label {
+  color: #878787;
+  font-weight: 600;
+}
+.login-container form a {
+  color: #0d7e7b;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.login-container form .form-field .input-with-icon {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.login-container form .form-field .input-with-icon input {
+  width: 100%;
+  padding: 8px 40px 8px 8px;
+}
+.login-container form .form-field .toggle-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  cursor: pointer;
+}
+
+.input-with-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.input-with-btn button {
+  background: linear-gradient(
+    180deg,
+    rgba(243, 152, 0, 1) 0%,
+    rgba(211, 89, 101, 1) 100%
+  );
+  color: #fff;
+  padding: 4px 16px;
+  border-radius: 4px;
+  flex: 1 1 auto;
+  min-width: 70px;
+  height: 42px;
+  outline: none;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #d87645;
+  height: 16px;
+}
+.version-code {
+  display: block;
+  position: absolute;
+  right: 8px;
+  bottom: 16px;
+  color: #939393;
+}

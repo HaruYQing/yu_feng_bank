@@ -20,3 +20,7 @@ if ("serviceWorker" in navigator) {
       });
   });
 }
+
+function navigate(url) {
+  console.log(url);
+}

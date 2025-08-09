@@ -18,14 +18,55 @@
   <link rel="apple-touch-icon" href="assets/icons/dollar.png">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="login.css">
 </head>
 
 <body>
-  <form>
-    <label for="presonal_id">身分證字號</label>
-    <input id="presonal_id" type="text">
-  </form>
+  <div class="login-container">
+    <img src="./assets/images/bank_logo.png" alt="bank_logo" class="bank-logo">
+    <form>
+      <div class="form-field">
+        <div class="label-area">
+          <label for="presonal_id">身分證字號</label>
+          <a>記住我</a>
+        </div>
+        <input id="presonal_id" type="text">
+      </div>
+
+      <div class="form-field">
+        <div class="label-area">
+          <label for="user_id">用戶代號</label>
+          <a>忘記代號/密碼</a>
+        </div>
+        <div class="input-with-icon">
+          <img src="./assets/icons/hidden.png" alt="hidden_icon" class="toggle-icon">
+          <input id="user_id" type="password" placeholder="請輸入6至12位用戶代碼">
+        </div>
+      </div>
+
+      <div class="form-field">
+        <div class="label-area">
+          <label for="user_id">網銀密碼</label>
+        </div>
+        <div class="input-with-btn">
+          <div class="input-with-icon">
+            <img src="./assets/icons/hidden.png" alt="hidden_icon" class="toggle-icon">
+            <input id="user_id" type="password" placeholder="請輸入網銀密碼">
+          </div>
+          <button type="button" onclick="navigate('hi')">登入</button>
+        </div>
+      </div>
+
+      <a>新用戶註冊、信用卡開卡 〉</a>
+    </form>
+
+    <span class="version-code">
+      7.3.2
+    </span>
+    <div class="footer">
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
