@@ -9,7 +9,7 @@ const urlsToCache = [
   `${DOMAIN}/login.css`,
   `${DOMAIN}/script.js`,
   `${DOMAIN}/manifest.json`,
-  `${DOMAIN}/assets/icons/dollar.png`,
+  `${DOMAIN}/assets/icons/app-icon.png`,
 ];
 
 self.addEventListener("install", (event) => {

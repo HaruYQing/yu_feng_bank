@@ -1,6 +1,6 @@
 {
   "name": "詐欺者劇組專用",
-  "short_name": "假網頁",
+  "short_name": "玉豐銀行",
   "start_url": "https://yu-feng.fyqstudio.com/",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -9,7 +9,7 @@
   "scope": "https://yu-feng.fyqstudio.com/",
   "icons": [
     {
-      "src": "https://yu-feng.fyqstudio.com/assets/icons/dollar.png",
+      "src": "https://yu-feng.fyqstudio.com/assets/icons/app-icon.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
