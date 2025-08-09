@@ -1,0 +1,18 @@
+{
+  "name": "詐欺者劇組專用",
+  "short_name": "假網頁",
+  "start_url": "https://yu-feng.fyqstudio.com/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "orientation": "portrait",
+  "scope": "https://yu-feng.fyqstudio.com/",
+  "icons": [
+    {
+      "src": "https://yu-feng.fyqstudio.com/assets/icons/dollar.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
