@@ -2,6 +2,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
   background: #f5f5f5;
 }
 
@@ -12,6 +13,7 @@
 
 .deposit-container .header-nav {
   z-index: 15;
+  width: 100%;
   display: flex;
   align-items: end;
   justify-content: center;
@@ -34,6 +36,7 @@
 
 /* section: balance */
 .deposit-container .balance {
+  width: 100%;
   position: relative;
 }
 .deposit-container .balance .colorful {
@@ -75,15 +78,18 @@
 
 /* section: demand-deposit */
 .deposit-container .demand-deposit {
+  width: 100%;
   margin-top: -48px;
   padding: 0 36px;
 }
-.deposit-container .demand-deposit .section-title {
+.deposit-container .demand-deposit .section-title,
+.deposit-container .time-deposit .section-title {
   display: flex;
   align-items: center;
   gap: 4px;
 }
-.deposit-container .demand-deposit .section-title span {
+.deposit-container .demand-deposit .section-title span,
+.deposit-container .time-deposit .section-title span {
   font-size: 22px;
   font-weight: 600;
   color: #474747;
@@ -117,7 +123,8 @@
   flex-direction: column;
 }
 .deposit-container .info-card .upper .text .card-title {
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 500;
   color: #474747;
 }
 .deposit-container .info-card .upper .text .card-sub {
@@ -126,7 +133,7 @@
 }
 .deposit-container .info-card .lower {
   width: 100%;
-  margin-top: 24px;
+  margin-top: 12px;
   display: flex;
 }
 .deposit-container .info-card .lower .amount {
@@ -134,4 +141,81 @@
   font-weight: 600;
   color: #474747;
   margin-left: auto;
+}
+
+.deposit-container .time-deposit {
+  margin-top: 24px;
+  padding: 0 36px;
+}
+.deposit-container .time-deposit .info-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.deposit-container .time-deposit .info-card .right-image {
+  width: 48%;
+}
+.deposit-container .time-deposit .info-card .left-text {
+  width: 52%;
+  display: flex;
+  flex-direction: column;
+}
+.deposit-container .time-deposit .info-card .left-text span {
+  font-size: 18px;
+  font-weight: 700;
+}
+.deposit-container .time-deposit .info-card .left-text p {
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #d87645;
+}
+
+/* section: action */
+.deposit-container .action {
+  margin-top: 36px;
+  background-color: #d87645;
+  padding: 12px 0;
+  width: 40%;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.deposit-container .action p {
+  color: #fff;
+  padding: 2px 12px;
+}
+.deposit-container .action p:nth-of-type(1) {
+  border-right: 1px solid #fff;
+}
+
+/* footer */
+.deposit-container .footer-nav {
+  border-top: 2px solid #dddddd;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.deposit-container .footer-nav .default,
+.deposit-container .footer-nav .selected {
+  margin-top: -2px;
+  padding: 14px 12px 12px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  font-size: 12px;
+  color: #878787;
+}
+.deposit-container .footer-nav .selected {
+  border-top: 2px solid #d87645;
+  color: #d87645;
+}
+.deposit-container .footer-nav .default img,
+.deposit-container .footer-nav .selected img {
+  width: 24px;
 }
