@@ -19,9 +19,143 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="deposit.css">
+  <link rel="stylesheet" href="details.css">
 </head>
 
 <body>
+  <div class="details-container">
+    <img src="./assets/images/deposit_header.png" alt="deposit_header" class="header-image" onclick="navigate('login.html')">
+
+    <div class="header-nav">
+      <div class="activate-tag">臺幣</div>
+      <div class="deactivate-tag">外幣</div>
+    </div>
+
+    <section class="balance">
+      <!-- <img src="./assets/images/colorfulBG.png" alt="colorful_bg" class="colorful"> -->
+      <div class="panel">
+        <div class="panel-title">可用餘額(TWD)
+          <img src="./assets/icons/eye.png" alt="eye_icon">
+        </div>
+        <span class="amount">$21,600,000</span>
+      </div>
+    </section>
+
+    <section class="record">
+      <div class="section-title">
+        活期存款
+      </div>
+
+      <div class="card-container">
+        <div class="record-card">
+          <div class="upper">
+            <span class="text">
+              跨行轉出
+            </span>
+            <img src="./assets/icons/more_orange.png" alt="more_icon" class="more">
+          </div>
+
+          <div class="lower">
+            <span class="transfer-out">-$5,000,000</span>
+          </div>
+        </div>
+
+        <div class="record-card">
+          <div class="upper">
+            <span class="text">
+              跨行轉出
+            </span>
+            <img src="./assets/icons/more_orange.png" alt="more_icon" class="more">
+          </div>
+
+          <div class="lower">
+            <span class="transfer-out">-$15,000,000</span>
+          </div>
+        </div>
+
+        <div class="record-card">
+          <div class="upper">
+            <span class="text">
+              跨行轉入
+            </span>
+            <img src="./assets/icons/more_orange.png" alt="more_icon" class="more">
+          </div>
+
+          <div class="lower">
+            <span class="transfer-in">$350,000</span>
+          </div>
+        </div>
+
+        <div class="record-card">
+          <div class="upper">
+            <span class="text">
+              跨行轉入
+            </span>
+            <img src="./assets/icons/more_orange.png" alt="more_icon" class="more">
+          </div>
+
+          <div class="lower">
+            <span class="transfer-in">$500,000</span>
+          </div>
+        </div>
+
+        <div class="record-card">
+          <div class="upper">
+            <span class="text">
+              跨行轉入
+            </span>
+            <img src="./assets/icons/more_orange.png" alt="more_icon" class="more">
+          </div>
+
+          <div class="lower">
+            <span class="transfer-in">$420,000</span>
+          </div>
+        </div>
+
+        <div class="record-card">
+          <div class="upper">
+            <span class="text">
+              跨行轉入
+            </span>
+            <img src="./assets/icons/more_orange.png" alt="more_icon" class="more">
+          </div>
+
+          <div class="lower">
+            <span class="transfer-in">$380,000</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="footer-nav">
+      <div class="selected">
+        <img src="./assets/icons/coin.png" alt="coin_icon">
+        <span>
+          帳務總覽
+        </span>
+      </div>
+      <div class="default">
+        <img src="./assets/icons/graphic.png" alt="graph_icon">
+        <span>
+          投資
+        </span>
+      </div>
+      <div class="default">
+        <img src="./assets/icons/bag.png" alt="bag_icon">
+        <span>
+          貸款
+        </span>
+      </div>
+      <div class="default">
+        <img src="./assets/icons/menu.png" alt="menu_icon">
+        <span>
+          更多
+        </span>
+      </div>
+    </div>
+  </div>
+
+
   <script src="script.js"></script>
 </body>
